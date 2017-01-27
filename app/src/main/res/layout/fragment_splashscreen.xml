@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#e9e9e9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/downday1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="2dp"
+                cardview:cardCornerRadius="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#607d8b">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="View Day One Slide (Offline)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView0b"
+                        android:layout_alignStart="@+id/textView0b"
+                        android:id="@+id/textView0a" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/downday2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="2dp"
+                cardview:cardCornerRadius="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#607d8b">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="View Day Two Slide (Offline)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView0b"
+                        android:layout_alignStart="@+id/textView0b"
+                        android:id="@+id/textView1a" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/downday3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="2dp"
+                cardview:cardCornerRadius="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#607d8b">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Day Three Slide (Offline)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView0b"
+                        android:layout_alignStart="@+id/textView0b"
+                        android:id="@+id/textView3a" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/downday4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="2dp"
+                cardview:cardCornerRadius="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#607d8b">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Day Four Slide (Offline)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView0b"
+                        android:layout_alignStart="@+id/textView0b"
+                        android:id="@+id/textView4a" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/downday5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="2dp"
+                cardview:cardCornerRadius="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#607d8b">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Day Five Slide (Offline)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView0b"
+                        android:layout_alignStart="@+id/textView0b"
+                        android:id="@+id/textView5a" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+</LinearLayout>

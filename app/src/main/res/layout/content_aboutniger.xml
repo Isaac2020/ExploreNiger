@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="#e9e9e9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/card_scrollview"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#e9e9e9"
+        android:fadeScrollbars="true"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <include layout="@layout/footer"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="190dp"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/nigerstate" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Niger State"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView0b"
+                        android:layout_alignStart="@+id/textView0b"
+                        android:id="@+id/textView0a" />
+                    <View
+                        android:id="@+id/view0"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView0a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aboutnigerstate"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView0b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view0" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Location"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView1b"
+                        android:layout_alignStart="@+id/textView1b"
+                        android:id="@+id/textView1a" />
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView1a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView1b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view1" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Land Mass and Features"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView2b"
+                        android:layout_alignStart="@+id/textView2b"
+                        android:id="@+id/textView2a" />
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView2a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/landmass"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView2b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view2" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Soil"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView3b"
+                        android:layout_alignStart="@+id/textView3b"
+                        android:id="@+id/textView3a" />
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView3a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/soil"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView3b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view3" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geography and Climate"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView4b"
+                        android:layout_alignStart="@+id/textView4b"
+                        android:id="@+id/textView4a" />
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView4a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/geography"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView4b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view4" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Population"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView5b"
+                        android:layout_alignStart="@+id/textView5b"
+                        android:id="@+id/textView5a" />
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView5a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/population"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView5b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view5" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peoples and Culture"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView6b"
+                        android:layout_alignStart="@+id/textView6b"
+                        android:id="@+id/textView6a" />
+                    <View
+                        android:id="@+id/view6"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView6a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/peoples"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView6b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view6" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Religion"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView7b"
+                        android:layout_alignStart="@+id/textView7b"
+                        android:id="@+id/textView7a" />
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView7a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/religion"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView7b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view7" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Occupation"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView8b"
+                        android:layout_alignStart="@+id/textView8b"
+                        android:id="@+id/textView8a" />
+                    <View
+                        android:id="@+id/view8"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView8a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/occupation"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView8b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view8" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Economy and Mineral Resources"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView9b"
+                        android:layout_alignStart="@+id/textView9b"
+                        android:id="@+id/textView9a" />
+                    <View
+                        android:id="@+id/view9"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView9a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/economy"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView9b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view9" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tourism"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView10b"
+                        android:layout_alignStart="@+id/textView10b"
+                        android:id="@+id/textView10a" />
+                    <View
+                        android:id="@+id/view10"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView10a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tourism"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView10b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view10" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Industrialization"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView11b"
+                        android:layout_alignStart="@+id/textView11b"
+                        android:id="@+id/textView11a" />
+                    <View
+                        android:id="@+id/view11"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView11a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/industrialization"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView11b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view11" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="10dp"
+                cardview:cardCornerRadius="8dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607d8b"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Electricity Supply"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true"
+                        android:layout_alignLeft="@+id/textView12b"
+                        android:layout_alignStart="@+id/textView12b"
+                        android:id="@+id/textView12a" />
+                    <View
+                        android:id="@+id/view12"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#B6B6B6"
+                        android:layout_below="@+id/textView12a"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/electricity"
+                        android:textColor="#ffffff"
+                        android:id="@+id/textView12b"
+                        android:layout_marginTop="15dp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/view12" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

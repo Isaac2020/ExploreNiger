@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height="220dp"
+    android:orientation = "vertical">
+
+    <ViewFlipper
+        android:id = "@+id/view_flipper"
+        android:layout_width = "fill_parent"
+        android:inAnimation="@anim/left_in"
+        android:outAnimation="@anim/left_out"
+        android:flipInterval="3000"
+        android:autoStart="true"
+        android:layout_height = "wrap_content">
+
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "fill_parent">
+
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:adjustViewBounds = "true"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/zumarock"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                style ="@style/ImageTitle"
+                android:text = "Zuma Rock"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "fill_parent" >
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:adjustViewBounds = "true"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/cmosquee" />
+
+            <TextView
+                style ="@style/ImageTitle"
+                android:text = "Central Mosque Minna" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "fill_parent" >
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:adjustViewBounds = "true"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/kainjii" />
+            <TextView
+                style ="@style/ImageTitle"
+                android:text = "Kainji Dam" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "fill_parent" >
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:adjustViewBounds = "true"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/guraraa" />
+
+            <TextView
+                style ="@style/ImageTitle"
+                android:text = "Gurara Waterfall" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "fill_parent" >
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:adjustViewBounds = "true"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/ghousee" />
+            <TextView
+                style ="@style/ImageTitle"
+                android:text = "Government House" />
+
+        </RelativeLayout>
+    </ViewFlipper >
+</LinearLayout>

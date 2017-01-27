@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:background="#e9e9e9"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center_horizontal"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:padding="5dp">
+
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/card_scrollview"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#e9e9e9"
+    android:fadeScrollbars="true"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            android:foreground="?attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="251dp">
+
+                <ImageView
+                    android:id="@+id/card_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zumarock" />
+
+                <TextView
+                    android:id="@+id/card_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_title_height"
+                    android:layout_alignBottom="@+id/card_image"
+                    android:text="Gwari Tribe"
+                    android:textColor="@color/dark_grey"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/card_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_image"
+                    android:layout_marginLeft="@dimen/md_keylines"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_marginBottom="@dimen/md_keylines"
+                    android:layout_marginRight="@dimen/md_keylines"
+                    android:text="@string/gwari"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="san"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/article_subheading" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_viewnupe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="251dp">
+
+                <ImageView
+                    android:id="@+id/card_imagenupe"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zumarock" />
+
+                <TextView
+                    android:id="@+id/card_titlenupe"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_title_height"
+                    android:layout_alignBottom="@+id/card_imagenupe"
+                    android:text="Nupe Tribe"
+                    android:textColor="@color/dark_grey"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/card_textnupe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_imagenupe"
+                    android:layout_marginLeft="@dimen/md_keylines"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_marginBottom="@dimen/md_keylines"
+                    android:layout_marginRight="@dimen/md_keylines"
+                    android:text="@string/nupe"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="san"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/article_subheading" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+</LinearLayout>

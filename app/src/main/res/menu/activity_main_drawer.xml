@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/abtniger"
+            android:icon="@drawable/ic_homenew"
+            android:title="About Niger State" />
+
+        <item android:id="@+id/tribes"
+            android:icon="@drawable/tribe"
+            android:title="Tribes and Culture" />
+
+        <item android:id="@+id/explore"
+            android:icon="@drawable/ic_explore_places"
+            android:title="Explore Places"/>
+
+        <item android:id="@+id/around_minna"
+            android:icon="@drawable/ic_around_minna"
+            android:title="Around Minna"/>
+
+    </group>
+
+    <item android:title="Contact Us">
+            <menu>
+                <item android:id="@+id/Ministry"
+                    android:icon="@drawable/ic_ministryofinfo"
+                    android:title="Min. of Info,culture and Tourism" />
+
+                <item android:id="@+id/developers"
+                    android:icon="@drawable/ic_app_developers"
+                    android:title="App. Developers" />
+
+            </menu>
+    </item>
+
+                <item android:id="@+id/about"
+                    android:icon="@drawable/ic_about"
+                    android:title="About" />
+</menu>

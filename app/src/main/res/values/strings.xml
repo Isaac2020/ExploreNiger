@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Explore Niger</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+   <!--About Niger-->
+    <string name="aboutnigerstate">
+        Niger State was created on 3rd February, 1976 from the defunct North-Western State during the regime of General Murtala Ramat Mohammed; however, the State actually began functioning on April 1st of that year. There were originally Nine Local Government areas (LGAs), namely: Chanchaga, Rafi, Bangi, Gbako, Etswan, Suleja, Mariga, Magama and Lavun. Agaie and Lapai LGAs were later created out of Etswan Local Government Area.\n\n
+        Between 1979 and 1983 when Malam Muhammadu Awwal Ibrahim was Executive Governor of the State, eighteen LGAs were managed by the administration, namely Kuta, Paikoro, Chanchaga, Rafi, Gbako, Katcha, Lemu, Lapai, Agaie, Suleja, Mariga, Bangi, Magama, Auna, Lavun, Mokwa, and Jima-Doko. But when the military came into power in 1984, it returned to the original L.G.A structure. Chanchaga was however divided into two:-Minna Municipal Council, with headquarters at Minna and Shiroro LGA with headquarters at Kuta.\n\n
+        The LGAs in Niger State became Nineteen (19) in 1991 when President Ibrahim Babangida created Nine (9) States and additional LGAs in Nigeria. However, by 1996 when late General Sani Abacha created six (6) additional States and 182 LGAs, in the entire country, Niger State got additional six (6) LGAs, namely, Katcha, Munya, Mashegu, Edati, Tafa and Mariga, bringing the total to 25 LGAs.\n
+    </string>
+    <string name="location">
+         The State lies on latitude 80o to 11o:30\’ North and Longitude 03o 30\’ to 07o 40\’ East. The State is bordered to the North by Zamfara State, West by Kebbi State, South by Kogi State, South West by Kwara State, North-East by Kaduna State and South East by FCT. The State also has an International Boundary with the Republic of Benin along Agwara and Borgu LGAs to the North West.\n
+    </string>
+    <string name="landmass">
+         As at 26th August 1991 (before the merger of Borgu and Agwara LGAs), the State covered a land area of 74,244 square Kilometres, which is about 8\%% of the total land area of Nigeria. With the merger, the land mass is now 76, 469.903 Square Kilometers (about 10\%% of the total land area of Nigeria) out of which about 85\%% is arable.\n
+    </string>
+    <string name="soil">
+         The soil types in Niger State are two: Ku soil and Ya soil. The Ku soil has little erosion hazards, while the Ya soil has better water holding capacity.\n
+    </string>
+    <string name="geography">
+         Niger State experiences distinct dry and wet seasons with annual rain fall varying from 1,100mm in the northern parts to 1,600mm in the southern parts. The maximum temperature (usually not more than 94oc) is recorded between March and June, while the minimum is usually between December and January. The rainy seasons last for about 150 days in the northern parts to about 120 days in the southern parts of the State. Generally, the fertile soil and hydrology of the State permits the cultivation of most of Nigeria\’s staple crops and still allows sufficient opportunities for grazing, fresh water fishing and forestry development.\n
+    </string>
+    <string name="population">
+         As at 1961, the population of Niger State was 1,194,508. The 1991 population figure indicates Niger State as provisionally containing 2,421,581 people. The 2006 Population and housing Census put the State\’s population at 3,950,249.\n
+    </string>
+    <string name="peoples">
+         Although there are three major ethnic groups (Nupe, Gbagyi, and Hausa) in the State, other tribal groups include - Kadara, Koro, Baraba, Kakanda, GanaGana, Dibo, Kambari, Kamuku, Pangu, Dukkawa, Gwada and Ingwai. Niger State also has numerous settlers from other parts of the Country living peacefully and contributing their quota to the development of the State.\n
+    </string>
+    <string name="religion">
+         The people of Niger State are predominantly Muslims and Christians with very few Traditional Religionists and Atheists.\n
+    </string>
+    <string name="occupation">
+         The majority of the populace in the State (85\%%) are farmers while the remaining 15\%% are involved in other vocations such as white collar jobs, business, craft and arts.\n
+    </string>
+    <string name="economy">
+         The cherished asset of Niger State is its fertile land, however, the potentials are yet to be fully explored. The Climate and availability of wide variety of mineral and agricultural resources also attest to the economic potentials of the State. Every government that has come to power endeavoured to provide good infrastructure such as roads, electricity, water and communication facilities, to make way for interested investors. Some natural and mineral resources found in the State include: Talc, Gold, Ball clays, Silica, Sand, Marble, Copper, Iron, Felsper, Lead, Kaolin, Casserole, Columbite, Mica, Quartzite, and Limestone. The three Hydro Electric Power Stations in the Country (at Kainji, Jebba and Shiroro) are all situated in Niger State.\n
+    </string>
+    <string name="tourism">
+         Niger State is one of the richest States in the country in terms of tourism. Some of the Tourist attractions are Zuma Rock, Gurara falls, Baro Empire Hill, Lord Lugard Colonial ruins at Zungeru, Nagwamatse Well and Kainji Lake National Park.\n
+    </string>
+    <string name="industrialization">
+        The government of Niger State is aware that the true development of any nation depends on her level of industrialization. For this reason concerted efforts have been made to ensure rapid industrialization. Being largely an agrarian State, Niger State can support a large variety of Agro-allied industries. Also, the State\’s numerous mineral resources can serve as basis for the establishment of many other industries in the state.\n\n
+        In order to induce industrialists to invest heavily in tapping these resources, government has to put in place many incentives such as provision of well-serviced Industrial layouts, guaranteed accelerated processing of application for industrial plots and even financial assistance in form of loans and equity participation by the government in certain cases. Other facilities like telecommunication, postal services etc. are adequately provided in the State for effective business contacts. The State has International airport and is well linked to all parts of Nigeria by road and rail.\n
+    </string>
+    <string name="electricity">
+        Niger State is the acclaimed \“Power House\” of the nation because it houses the three Hydro-Electric Dams: Shiroro Hydro-Electric Dam; Kainji Hydro-Electric Dam; and Jebba Hydro-Electric Dam. It is a fact that all major towns in the State and indeed all Local Government headquarters except few are connected to the national grid.\n
+    </string>
+    <string name="gwari">
+        The LGAs in Niger State became Nineteen (19) in 1991 when President Ibrahim Babangida created Nine (9) States and additional LGAs in Nigeria. However, by 1996 when late General Sani Abacha created six (6)
+    </string>
+    <string name="nupe">
+        The LGAs in Niger State became Nineteen (19) in 1991 when President Ibrahim Babangida created Nine (9) States and additional LGAs in Nigeria. However, by 1996 when late General Sani Abacha created six (6)
+    </string>
+    <string name="title_activity_tribe_one">TribeOne</string>
+
+    <!--Explore Niger-->
+    <string name="Shiroro">"The Shiroro Power Station is a hydroelectric power plant of the Kaduna River in Niger State, Nigeria. It has a power generating capacity of 600 megawatts (800,000 hp) enough to power over 404,000 homes.\n"</string>
+    <string name="kainji_dam">"Kainji Dam is a dam across the Niger River in Niger State of Northern Nigeria. Construction of the dam was carried out by Impregilo (a consortium of Italian Civil Engineering Contractors) to designs by Joint Consultants, Balfour Beatty and Nedeco, and began in 1964 to be completed in 1968. The total cost was estimated at US$209 million (equivalent to about US$2.8 billion in 2015 dollars), with one-quarter of this amount used to resettle people displaced by the construction of the dam and its reservoir, Kainji Lake."\n</string>
+    <string name="dimensions">"Kainji Dam extends for about 10 kilometres (6.2 mi), including its saddle dam, which closes off a tributary valley. The primary section across the outflow to the Niger is 550 metres (1,800 ft). Most of the structure is made from earth, but the centre section, housing the hydroelectric turbines, was built from concrete. This section is 65 metres (213 ft) high. Kanji Dam is one of the longest dams in the world."\n</string>
+    <string name="kainji_lake">"Kainji Lake measures about 135 kilometres (84 mi) long and about 30 kilometres (19 mi) at its widest point, and supports irrigation and a local fishing industry. In 1999, uncoordinated opening of floodgates led to local flooding of about 60 villages."</string>
+    <string name="jebba_dam">"The Jebba Power Station is a hydroelectric power plant of the Niger River in Nigeria. It has a power generating capacity of 540 megawatts (720,000 hp) enough to power over 364,000 homes[1] The hydroelectric power plant was completed in 1984."</string>
+    <string name="zuma_rock">"Zuma Rock is a large monolith, an igneous intrusion composed of gabbro and granodiorite that is located in Niger State, Nigeria. It rises spectacularly immediately north of Nigeria's capital Abuja, along the main road from Abuja to Kaduna off Madala, and is sometimes referred to as the "Gateway to Abuja from Suleja."  Zuma Rock rises 725 metres (2,379 ft) above its surroundings.\n\nZuma is depicted on the 100 naira note. It was used for a defensive retreat by the Gbagyi people against invading neighbouring tribes during intertribal warring."\n</string>
+    <string name="gurara_falls">"Gurara Waterfalls is located in Gurara, a local government area of Niger State, North Central Nigeria. The waterfalls is approximately 30metres in height and it lies on the Gurara river along the Suleja-Minna Road."\n</string>
+    <string name="history">"According to oral history, Gurara Waterfalls was discovered by a Gwari hunter called Buba in 1745 before some Europeans discovered it in 1925 after they found it as a recreation centre. Prior to the discovery of the waterfalls by the Europeans, Gurara Waterfalls was worshipped by people living in communities around it. Oral history also has it that Gurara Waterfalls and Gurara River were named after two deities called Gura and Rara."\n</string>
+    <string name="tourist">"Despite its chequered history, Gwarara Waterfalls is one of the major tourist sites in Nigeria.[3] There have been plans in recent times to turn it into a resort with a recreation centre and a seven-star hotel around it."\n</string>
+    <string name="kainji_park1">"Kainji Lake National Park (KNLP) (headquarters Wawa) is situated 560 km north of Lagos, close to the border with the Republic of Benin. It comprises two sectors, Borgu Game Reserve and Zugurma Game Reserve, which are separated by Kainji Lake.[4] The abundant wildlife in the game preserves include baboons, duikers, hippopotami, hyenas, kobs, roan antelopes, and warthogs."\n</string>
+    <string name="kainji_park2">"Only the Borgu (western) sector is currently used for tourism; the Zugurma (eastern) sector lacks infrastructure, including access roads.The topography of the park is gently undulating with a general decrease in elevation from west to east. The Borgu sector is drained mainly by the Oli, Timo and Doro rivers and their tributaries, while the Zugurma sector is drained by the Maingyara and Nuwa Tizururu rivers. The vegetation of the park is typical of the Guinean forest-savanna mosaic, although in some areas it appears more Sahelian. Riparian forests occur on the banks of the larger watercourses."\n</string>
+    <string name="kainji_park3">"Although the area around the park has a relatively low population density, numerous human activities adversely affect the park. These include deforestation, uncontrolled burning and illegal grazing and are particularly prevalent in the Zugurma sector. Wild mammals occur at relatively low densities due to illegal hunting. Lake Kainji has suffered a dramatic decline as a fishery due to the high numbers of artisanal and subsistence fisherfolk using the lake. It has been suggested that a period of closure, together with controlled fishing rights may help improve fish stocks."\n</string>
+    <string name="lugard">"Frederick John Dealtry Lugard, 1st Baron Lugard GCMG, CB, DSO, PC (22 January 1858 – 11 April 1945), known as Sir Frederick Lugard between 1901 and 1928, was a British soldier, mercenary, explorer of Africa and colonial administrator. He was Governor of Hong Kong (1907–1912), the last Governor of the Southern Nigeria Protectorate (1912–1914), the first High Commissioner (1900–1906) and last Governor (1912–1914) of the Northern Nigeria Protectorate and the first Governor-General of Nigeria (1914–1919)."\n</string>
+
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+    </string>
+    <string name="title_activity_tribe_two">TribeTwo</string>
+
+</resources>
