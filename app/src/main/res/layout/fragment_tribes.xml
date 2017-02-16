@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/tools"
-android:orientation="vertical"
-android:background="#e9e9e9"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:gravity="center_horizontal"
-android:paddingBottom="@dimen/activity_vertical_margin"
-android:paddingLeft="@dimen/activity_horizontal_margin"
-android:paddingRight="@dimen/activity_horizontal_margin"
-android:paddingTop="@dimen/activity_vertical_margin"
-android:padding="5dp">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#e9e9e9"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:padding="5dp">
 
 <android.support.v4.widget.NestedScrollView
     android:id="@+id/card_scrollview"
@@ -26,8 +23,6 @@ android:padding="5dp">
         android:orientation="vertical" >
 
         <android.support.v7.widget.CardView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,14 +41,15 @@ android:padding="5dp">
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/zumarock" />
+                    android:src="@drawable/tribe_gbagi" />
 
                 <TextView
                     android:id="@+id/card_title"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/card_title_height"
                     android:layout_alignBottom="@+id/card_image"
-                    android:text="Gwari Tribe"
+                    android:text="Gwari People"
+                    android:paddingLeft="5dp"
                     android:textColor="@color/dark_grey"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
                 <TextView
@@ -71,14 +67,10 @@ android:padding="5dp">
                     android:ellipsize="end"
                     android:singleLine="true"
                     android:textSize="@dimen/article_subheading" />
-
-
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_viewnupe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -104,7 +96,8 @@ android:padding="5dp">
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/card_title_height"
                     android:layout_alignBottom="@+id/card_imagenupe"
-                    android:text="Nupe Tribe"
+                    android:text="Nupe People"
+                    android:paddingLeft="5dp"
                     android:textColor="@color/dark_grey"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
                 <TextView
@@ -122,9 +115,206 @@ android:padding="5dp">
                     android:ellipsize="end"
                     android:singleLine="true"
                     android:textSize="@dimen/article_subheading" />
-
             </RelativeLayout>
         </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_viewKamuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="251dp">
+
+                <ImageView
+                    android:id="@+id/card_imageKamuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zumarock"/>
+
+                <TextView
+                    android:id="@+id/card_titleKamuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_title_height"
+                    android:layout_alignBottom="@+id/card_imageKamuku"
+                    android:text="Kamuku People"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/dark_grey"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/card_textKamuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_imageKamuku"
+                    android:layout_marginLeft="@dimen/md_keylines"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_marginBottom="@dimen/md_keylines"
+                    android:layout_marginRight="@dimen/md_keylines"
+                    android:text="@string/nupe"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="san"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/article_subheading" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_viewKambari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="251dp">
+
+                <ImageView
+                    android:id="@+id/card_imageKambari"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zumarock" />
+
+                <TextView
+                    android:id="@+id/card_titleKambari"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_title_height"
+                    android:layout_alignBottom="@+id/card_imageKambari"
+                    android:text="Kambari People"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/dark_grey"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/card_textKambari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_imageKambari"
+                    android:layout_marginLeft="@dimen/md_keylines"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_marginBottom="@dimen/md_keylines"
+                    android:layout_marginRight="@dimen/md_keylines"
+                    android:text="@string/nupe"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="san"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/article_subheading" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_viewKoro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="251dp">
+
+                <ImageView
+                    android:id="@+id/card_imageKoro"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zumarock" />
+
+                <TextView
+                    android:id="@+id/card_titleKoro"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_title_height"
+                    android:layout_alignBottom="@+id/card_imageKoro"
+                    android:text="Koro People"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/dark_grey"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/card_textKoro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_imageKoro"
+                    android:layout_marginLeft="@dimen/md_keylines"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_marginBottom="@dimen/md_keylines"
+                    android:layout_marginRight="@dimen/md_keylines"
+                    android:text="@string/nupe"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="san"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/article_subheading" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_viewDukawa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="251dp">
+
+                <ImageView
+                    android:id="@+id/card_imageDukawa"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zumarock" />
+
+                <TextView
+                    android:id="@+id/card_titleDukawa"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_title_height"
+                    android:layout_alignBottom="@+id/card_imageDukawa"
+                    android:text="Dukawa People"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/dark_grey"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/card_textDukawa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_imageDukawa"
+                    android:layout_marginLeft="@dimen/md_keylines"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_marginBottom="@dimen/md_keylines"
+                    android:layout_marginRight="@dimen/md_keylines"
+                    android:text="@string/nupe"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="san"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="@dimen/article_subheading" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
 </LinearLayout>

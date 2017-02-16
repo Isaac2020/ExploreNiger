@@ -12,7 +12,7 @@
 
         <item android:id="@+id/explore"
             android:icon="@drawable/ic_explore_places"
-            android:title="Explore Places"/>
+            android:title="Tourist sites"/>
 
         <item android:id="@+id/around_minna"
             android:icon="@drawable/ic_around_minna"
@@ -22,10 +22,6 @@
 
     <item android:title="Contact Us">
             <menu>
-                <item android:id="@+id/Ministry"
-                    android:icon="@drawable/ic_ministryofinfo"
-                    android:title="Min. of Info,culture and Tourism" />
-
                 <item android:id="@+id/developers"
                     android:icon="@drawable/ic_app_developers"
                     android:title="App. Developers" />

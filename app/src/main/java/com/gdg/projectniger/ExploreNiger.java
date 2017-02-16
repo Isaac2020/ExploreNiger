@@ -1,6 +1,7 @@
 package com.gdg.projectniger;
 
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.gesture.GestureOverlayView;
@@ -58,10 +59,10 @@ public class ExploreNiger extends Fragment {
         share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -69,10 +70,10 @@ public class ExploreNiger extends Fragment {
         share1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -80,10 +81,10 @@ public class ExploreNiger extends Fragment {
         share2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -91,10 +92,10 @@ public class ExploreNiger extends Fragment {
         share3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -102,10 +103,10 @@ public class ExploreNiger extends Fragment {
         share4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -113,10 +114,10 @@ public class ExploreNiger extends Fragment {
         share5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -124,10 +125,10 @@ public class ExploreNiger extends Fragment {
         share6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent share = new Intent (Intent.ACTION_SEND);
+                Intent share = new Intent(Intent.ACTION_SEND);
                 share.setType("text/plain");
-                share.putExtra(Intent.EXTRA_SUBJECT,"Zuma Rock");
-                share.putExtra(Intent.EXTRA_TEXT,"Zuma Rock is located at Suleja Try and  Visit it");
+                share.putExtra(Intent.EXTRA_SUBJECT, "Zuma Rock");
+                share.putExtra(Intent.EXTRA_TEXT, "Zuma Rock is located at Suleja Try and  Visit it");
                 startActivity(share);
             }
         });
@@ -136,7 +137,7 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
@@ -145,7 +146,7 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
@@ -154,7 +155,7 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
@@ -163,7 +164,7 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
@@ -172,7 +173,7 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
@@ -181,7 +182,7 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
@@ -190,16 +191,12 @@ public class ExploreNiger extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent I = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.8275000, -122.554444"));
-                I.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+                I.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
                 startActivity(I);
             }
         });
 
-
         return rootView;
     }
-
-
-
 
 }

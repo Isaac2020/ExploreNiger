@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:background="#e9e9e9"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#e9e9e9"
     android:gravity="center_horizontal"
+    android:orientation="vertical"
     android:padding="5dp">
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/card_scrollview"
         android:layout_width="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
         android:background="#e9e9e9"
         android:fadeScrollbars="true"
-        android:layout_height="match_parent" >
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="zumarock"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -49,68 +50,68 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image"
+                        android:paddingLeft="5dp"
                         android:text="Zuma Rock"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/zuma_rock"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/zuma_rock"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_below="@+id/card_text"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -128,68 +129,68 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image1"
+                        android:paddingLeft="5dp"
                         android:text="Kainji Dam"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image1"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/kainji_dam"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/kainji_dam"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button1"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text1"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button1"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text1"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text1"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button1"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_alignParentBottom="true"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -207,68 +208,68 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image2"
+                        android:paddingLeft="5dp"
                         android:text="Shiroro Dam"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image2"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/Shiroro"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/Shiroro"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button2"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text2"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button2"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text2"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text2"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button2"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_below="@+id/card_text2"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -286,68 +287,68 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image3"
+                        android:paddingLeft="5dp"
                         android:text="Jebba Dam"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image3"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/jebba_dam"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/jebba_dam"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button3"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text3"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button3"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text3"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text3"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button3"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_below="@+id/card_text3"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -365,72 +366,73 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image4"
+                        android:paddingLeft="5dp"
                         android:text="Gurara Waterfall"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image4"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/gurara_falls"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/gurara_falls"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button4"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text4"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button4"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text4"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text4"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button4"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_below="@+id/card_text4"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="279dp">
+
                     <ImageView
                         android:id="@+id/card_image5"
                         android:layout_width="match_parent"
@@ -443,68 +445,68 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image5"
+                        android:paddingLeft="5dp"
                         android:text="Lord Lugard's Residence"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image5"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/lugard"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/lugard"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button5"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text5"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button5"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text5"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text5"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button5"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_below="@+id/card_text5"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:cardUseCompatPadding="true"
+                android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
-                android:foreground="?attr/selectableItemBackground">
+                app:cardUseCompatPadding="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -522,54 +524,55 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/card_title_height"
                         android:layout_alignBottom="@+id/card_image6"
+                        android:paddingLeft="5dp"
                         android:text="Kainji National park"
-                        android:textColor="@color/dark_grey"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_grey" />
 
                     <TextView
                         android:id="@+id/card_text6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/card_image6"
-                        android:layout_marginLeft="@dimen/md_keylines"
-                        android:layout_marginTop="@dimen/md_keylines"
                         android:layout_marginBottom="@dimen/md_keylines"
+                        android:layout_marginLeft="@dimen/md_keylines"
                         android:layout_marginRight="@dimen/md_keylines"
-                        android:text="@string/kainji_park1"
-                        android:textColor="#FF757575"
+                        android:layout_marginTop="@dimen/md_keylines"
                         android:ellipsize="end"
                         android:singleLine="true"
+                        android:text="@string/kainji_park1"
+                        android:textColor="#FF757575"
                         android:textSize="@dimen/article_subheading" />
 
                     <ImageButton
                         android:id="@+id/save_button6"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
                         android:layout_below="@+id/card_text6"
-                        app:srcCompat="@drawable/ic_favorite_black"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"/>
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_favorite_black" />
 
                     <ImageButton
                         android:id="@+id/share_button6"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        android:layout_marginRight="@dimen/md_keylines"
-                        app:srcCompat="@drawable/ic_share"
-                        android:layout_below="@+id/card_text6"
                         android:layout_alignParentRight="true"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey" />
+                        android:layout_below="@+id/card_text6"
+                        android:layout_marginRight="@dimen/md_keylines"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_share" />
 
                     <ImageButton
                         android:id="@+id/map_button6"
+                        style="?android:attr/borderlessButtonStyle"
                         android:layout_width="@dimen/cards_button_width"
                         android:layout_height="@dimen/cards_button_height"
-                        app:srcCompat="@drawable/ic_map102"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:tint="@color/button_grey"
                         android:layout_below="@+id/card_text6"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/button_grey"
+                        app:srcCompat="@drawable/ic_map102" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>

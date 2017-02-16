@@ -24,6 +24,11 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Feedback" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,9 +36,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Feedback"
-            android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -47,12 +49,8 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".TribeOne"
-            android:label="@string/title_activity_tribe_one"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".TribeTwo"
-            android:label="@string/title_activity_tribe_two"
+            android:name=".ZumrockActivity"
+            android:label="@string/title_activity_zumrock"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

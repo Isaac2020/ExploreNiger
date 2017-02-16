@@ -9,7 +9,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-   <!--About Niger-->
+    <!--About Niger-->
     <string name="aboutnigerstate">
         Niger State was created on 3rd February, 1976 from the defunct North-Western State during the regime of General Murtala Ramat Mohammed; however, the State actually began functioning on April 1st of that year. There were originally Nine Local Government areas (LGAs), namely: Chanchaga, Rafi, Bangi, Gbako, Etswan, Suleja, Mariga, Magama and Lavun. Agaie and Lapai LGAs were later created out of Etswan Local Government Area.\n\n
         Between 1979 and 1983 when Malam Muhammadu Awwal Ibrahim was Executive Governor of the State, eighteen LGAs were managed by the administration, namely Kuta, Paikoro, Chanchaga, Rafi, Gbako, Katcha, Lemu, Lapai, Agaie, Suleja, Mariga, Bangi, Magama, Auna, Lavun, Mokwa, and Jima-Doko. But when the military came into power in 1984, it returned to the original L.G.A structure. Chanchaga was however divided into two:-Minna Municipal Council, with headquarters at Minna and Shiroro LGA with headquarters at Kuta.\n\n
@@ -93,5 +93,6 @@
 
     </string>
     <string name="title_activity_tribe_two">TribeTwo</string>
+    <string name="title_activity_zumrock">ZumrockActivity</string>
 
 </resources>

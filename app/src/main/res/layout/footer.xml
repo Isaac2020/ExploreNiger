@@ -58,7 +58,7 @@
                 android:layout_gravity = "center"
                 android:adjustViewBounds = "true"
                 android:scaleType = "centerCrop"
-                android:src = "@drawable/kainjii" />
+                android:src = "@drawable/kainji" />
             <TextView
                 style ="@style/ImageTitle"
                 android:text = "Kainji Dam" />
@@ -88,11 +88,26 @@
                 android:layout_gravity = "center"
                 android:adjustViewBounds = "true"
                 android:scaleType = "centerCrop"
-                android:src = "@drawable/ghousee" />
+                android:src = "@drawable/ghouse_roundabout" />
             <TextView
                 style ="@style/ImageTitle"
                 android:text = "Government House" />
-
         </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "fill_parent" >
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:adjustViewBounds = "true"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/ghouse_road" />
+            <TextView
+                style ="@style/ImageTitle"
+                android:text = "Government House Road" />
+        </RelativeLayout>
+
     </ViewFlipper >
 </LinearLayout>
